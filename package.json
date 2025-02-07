@@ -4,9 +4,17 @@
   "description": "Automação para pedir o almoço",
   "main": "index.js",
   "type": "module",
-  "packageManager": "pnpm@9.14.2",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.ts\"",
+    "start": "bun run src/index.ts"
+  },
   "dependencies": {
-    "dotenv": "^16.4.7",
     "puppeteer": "^24.2.0"
+  },
+  "packageManager": "bun@1.2.2",
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "prettier": "^3.4.2",
+    "zod": "^3.24.1"
   }
 }
