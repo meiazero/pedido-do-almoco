@@ -1,0 +1,12 @@
+{
+  "name": "pedido-do-almoco",
+  "version": "0.0.1",
+  "description": "Automação para pedir o almoço",
+  "main": "index.js",
+  "type": "module",
+  "packageManager": "pnpm@9.14.2",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "puppeteer": "^24.2.0"
+  }
+}
