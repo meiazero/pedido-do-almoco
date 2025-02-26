@@ -1,5 +1,7 @@
+const isProduction = process.env.NODE_ENV === 'production';
+
 export const browserConfig = {
-  headless: false,
+  headless: isProduction,
   defaultViewport: null,
   args: [
     '--no-sandbox',
